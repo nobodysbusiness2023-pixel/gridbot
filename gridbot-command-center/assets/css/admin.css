@@ -1,0 +1,327 @@
+/**
+ * Admin Styles for GridBot Command Center
+ */
+
+/* General Admin Styles */
+.gridbotcc-meta-box {
+    padding: 10px 0;
+}
+
+.gridbotcc-meta-box p {
+    margin: 0 0 15px 0;
+}
+
+.gridbotcc-meta-box label {
+    font-weight: 600;
+    color: #2dd4bf;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.gridbotcc-meta-box input[type="text"],
+.gridbotcc-meta-box input[type="number"],
+.gridbotcc-meta-box input[type="email"],
+.gridbotcc-meta-box input[type="date"],
+.gridbotcc-meta-box select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid rgba(45, 212, 191, 0.2);
+    border-radius: 6px;
+    background: rgba(45, 212, 191, 0.05);
+    color: #333;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.gridbotcc-meta-box input[type="text"]:focus,
+.gridbotcc-meta-box input[type="number"]:focus,
+.gridbotcc-meta-box input[type="email"]:focus,
+.gridbotcc-meta-box input[type="date"]:focus,
+.gridbotcc-meta-box select:focus {
+    outline: none;
+    border-color: #2dd4bf;
+    box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.1);
+}
+
+/* Admin Page Styles */
+.wrap h1 {
+    color: #2dd4bf;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+/* Form Table Enhancements */
+.form-table th {
+    color: #2dd4bf;
+    font-weight: 600;
+    padding: 20px 10px 20px 0;
+    width: 200px;
+}
+
+.form-table td {
+    padding: 20px 10px;
+}
+
+.form-table input[type="text"],
+.form-table input[type="number"],
+.form-table input[type="email"],
+.form-table select {
+    padding: 10px 15px;
+    border: 2px solid rgba(45, 212, 191, 0.2);
+    border-radius: 8px;
+    background: rgba(45, 212, 191, 0.05);
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.form-table input[type="text"]:focus,
+.form-table input[type="number"]:focus,
+.form-table input[type="email"]:focus,
+.form-table select:focus {
+    outline: none;
+    border-color: #2dd4bf;
+    box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.1);
+}
+
+.form-table input[type="range"] {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 8px;
+    border-radius: 4px;
+    background: rgba(45, 212, 191, 0.2);
+    outline: none;
+}
+
+.form-table input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2dd4bf;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(45, 212, 191, 0.3);
+}
+
+.form-table input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #2dd4bf;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(45, 212, 191, 0.3);
+}
+
+/* Color Scheme Preview */
+.color-scheme-preview {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color-preview {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgba(45, 212, 191, 0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin Notices */
+.notice {
+    border-left: 4px solid #2dd4bf;
+    background: rgba(45, 212, 191, 0.05);
+}
+
+.notice-success {
+    border-left-color: #059669;
+    background: rgba(5, 150, 105, 0.05);
+}
+
+.notice-warning {
+    border-left-color: #d97706;
+    background: rgba(217, 119, 6, 0.05);
+}
+
+.notice-error {
+    border-left-color: #dc2626;
+    background: rgba(220, 38, 38, 0.05);
+}
+
+/* Dashboard Widget */
+.gridbotcc-dashboard-widget {
+    padding: 20px;
+}
+
+.gridbotcc-dashboard-widget h3 {
+    color: #2dd4bf;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.gridbotcc-dashboard-widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.gridbotcc-dashboard-widget li {
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(45, 212, 191, 0.1);
+}
+
+.gridbotcc-dashboard-widget a {
+    color: #2dd4bf;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.gridbotcc-dashboard-widget a:hover {
+    color: #f59e0b;
+}
+
+/* Performance Table */
+.performance-stats .widefat {
+    border: 2px solid rgba(45, 212, 191, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.performance-stats .widefat thead {
+    background: rgba(45, 212, 191, 0.1);
+}
+
+.performance-stats .widefat th {
+    color: #2dd4bf;
+    font-weight: 600;
+    padding: 15px;
+    border-bottom: 2px solid rgba(45, 212, 191, 0.2);
+}
+
+.performance-stats .widefat td {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgba(45, 212, 191, 0.1);
+}
+
+.performance-stats .widefat tr:hover {
+    background: rgba(45, 212, 191, 0.05);
+}
+
+/* Tooltips */
+.gridbotcc-tooltip {
+    position: absolute;
+    background: rgba(26, 26, 26, 0.95);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    z-index: 1000;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border: 1px solid rgba(45, 212, 191, 0.3);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.gridbotcc-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(26, 26, 26, 0.95) transparent transparent transparent;
+}
+
+/* Help Tips */
+.gridbotcc-help-tip {
+    cursor: help;
+    color: #2dd4bf;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+/* Buttons */
+.button-primary {
+    background: linear-gradient(135deg, #2dd4bf, #0891b2);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-primary:hover {
+    background: linear-gradient(135deg, #0891b2, #2dd4bf);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(45, 212, 191, 0.3);
+}
+
+.button-secondary {
+    background: transparent;
+    border: 2px solid #2dd4bf;
+    color: #2dd4bf;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
+    background: #2dd4bf;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Responsive Admin */
+@media screen and (max-width: 782px) {
+    .form-table th {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .form-table td {
+        padding: 10px 0;
+    }
+    
+    .form-table input[type="range"] {
+        width: 100%;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .gridbotcc-meta-box input[type="text"],
+    .gridbotcc-meta-box input[type="number"],
+    .gridbotcc-meta-box input[type="email"],
+    .gridbotcc-meta-box select {
+        background: rgba(45, 212, 191, 0.1);
+        color: white;
+        border-color: rgba(45, 212, 191, 0.3);
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
